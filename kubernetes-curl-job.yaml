@@ -3,7 +3,7 @@ kind: CronJob
 metadata:
   name: my-kubernetes-job
   labels:
-    app: cellarcollective
+    app: my-kubernetes-app
     type: cron
 spec:
   schedule: "* 1 * * *" # Run every hour
