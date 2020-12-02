@@ -23,9 +23,9 @@ status_code=$(curl -H "Authorization: Bearer ${accessToken}" \
     "$JOB_ENDPOINT")
 
 if [ "$status_code" -ne 202 ]; then
-  echo $FAIL_MESSAGE
+  echo "$FAIL_MESSAGE"
   notifyFail
 else
-  echo $SUCCESS_MESSAGE
+  echo "$SUCCESS_MESSAGE"
   notifySuccess
 fi
