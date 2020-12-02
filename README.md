@@ -10,7 +10,7 @@ For those that have migrated to Kubernetes, a new iteration of cron is now avail
 
 >Cron + K8s + Immutable Images = Happy Cron Jobs
 
-## How Kunernetes Cron is this better than regular cron?
+## How Kunernetes Cron is better than regular cron?
 Suppose you don’t want to run this once a month anymore, but rather every minute. All you need to change is the schedule property to */1 * * * * to make the job run every minute directly from your kubernetes dashboard.
 
 ## How to deploy this cron job
